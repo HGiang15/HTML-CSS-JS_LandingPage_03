@@ -1,4 +1,4 @@
-# 🌟 Project 03 - Shine-smile (Dental Clinic Landing Page) 🌟
+# 🌟 Project 03 - Shine-smile (Landing Page Basic) 🌟
 
 Welcome to **Project 03 - Shine-smile**, a beautifully crafted landing page tailored for a modern dental clinic. This project showcases an elegant and professional design, built with HTML and CSS, making it a perfect starting point for creating a responsive and user-friendly website for any healthcare provider.
 
