@@ -100,6 +100,7 @@ a {
     padding-top: 30px;
 }
 
+
 .logo {
     position: relative;
     display: inline-flex;
@@ -151,6 +152,14 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
+/* 
+.header-top.fixed {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+    background: var(--header-bg);
+} */
 
 .navbar__list {
     display: flex;
@@ -403,4 +412,66 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     color: var(--primary-color);
+}
+
+
+/* =============== Feature =============== */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.feature__cta {
+    margin-top: 38px;
+}
+
+
+
+/* Button click on top */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    opacity: 0.9;
 }
