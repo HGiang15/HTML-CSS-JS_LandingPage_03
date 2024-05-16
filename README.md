@@ -9,7 +9,7 @@ Experience the live demo [here](https://hgiang15.github.io/HTML-CSS_LandingPage_
 ## ✨ Features
 
 - **Responsive Design**: Ensures optimal viewing experience across all devices, from desktops to mobile phones (Update Coming Soon...)
-- **JavaScript Functionality**: Interactive features to enhance user experience (Update Coming Soon...)
+- **JavaScript Functionality**: Interactive features to enhance user experience (Basic: Form, Navbar)
 - **Clean and Professional Design**: Aesthetically pleasing layout that reflects the high standards of a dental clinic.
 - **Easy Customization**: Designed for easy modification and expansion to suit your specific needs.
 
@@ -38,4 +38,3 @@ Shine-smile is a state-of-the-art dental clinic dedicated to providing exception
 - **Specialized Treatments**: Implants, root canals, and oral surgery.
 
 Visit our live demo to see the clean and sophisticated design that makes Shine-smile the perfect choice for any dental clinic looking to establish a strong online presence.
-
