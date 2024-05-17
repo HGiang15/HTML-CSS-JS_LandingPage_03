@@ -4,7 +4,7 @@ Welcome to **Project 03 - Shine-smile**, a beautifully crafted landing page tail
 
 ## 🚀 Live Demo
 
-Experience the live demo [here](https://hgiang15.github.io/HTML-CSS_LandingPage_03/).
+Experience the live demo [here](https://hgiang15.github.io/HTML-CSS-JS_LandingPage_03/).
 
 ## ✨ Features
 
@@ -19,11 +19,11 @@ Get started with a local copy in just a few steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/HGiang15/HTML-CSS_LandingPage_03.git
+   git clone https://github.com/HGiang15/HTML-CSS-JS_LandingPage_03.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd HTML-CSS_LandingPage_03
+   cd HTML-CSS-JS_LandingPage_03
    ```
 
 ## 🏥 About Shine-smile
