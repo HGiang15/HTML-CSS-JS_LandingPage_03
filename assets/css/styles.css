@@ -58,6 +58,14 @@ a {
     text-decoration: none;
 }
 
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
 .section-heading {
     font-weight: 600;
     font-size: 5rem;
@@ -169,6 +177,7 @@ a {
     display: block;
     color: var(--white-color);
     font-size: 1.8em;
+    font-family: "Sora", sans-serif;
 }
 
 .logo__brand--small {
@@ -721,9 +730,119 @@ a {
     font-size: 1.6rem;
 }
 
+/* =============== Footer =============== */
+.footer {
+    background: var(--header-bg);
+    padding-top: 100px;
+    font-family: "Open Sans", sans-serif;
+}
 
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
 
+.footer__desc {
+    margin-top: 22px;
+    max-width: 336px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #A9B3BB;
+}
 
+.footer__heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--white-color);
+}
+
+.footer__list {
+    margin-bottom: 28px;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    color: #A9B3BB;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    white-space: nowrap;
+}
+
+.footer__link:hover {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+.footer__social {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 28px;
+}
+
+.footer__social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    background: var(--white-color);
+    transition: 0.25s;
+}
+
+.footer__social-btn:hover {
+    color: var(--white-color);
+    background: var(--primary-color);
+}
+
+.footer-form {
+    margin-top: 10px;
+    display: flex;
+    column-gap: 12px;
+}
+
+.footer-form__input {
+    width: 212px;
+    height: 46px;
+    padding: 0 10px;
+    color: var(--white-color);
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    background: transparent;
+}
+
+.footer-form__input::placeholder {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #9CA8B1;
+}
+
+.footer-form__submit {
+    --height: 46px;
+    min-width: 108px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+.footer__copyright {
+    border-top: 1px solid #406181;
+}
+
+.footer__copyright-text {
+    padding: 28px 0 42px;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.86;
+    color: #AAB3BA;
+}
 
 /* =============== Button click on top =============== */
 #scrollToTopBtn {
