@@ -138,7 +138,6 @@ button {
     padding-top: 30px;
 }
 
-
 .logo {
     position: relative;
     display: inline-flex;
@@ -187,18 +186,18 @@ button {
 
 /* Header top */
 .header-top {
+    padding: 30px 0 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: var(--header-bg);
 }
 
-/* 
 .header-top.fixed {
     position: sticky;
-    top: -1px;
+    top: -22px;
     z-index: 1;
-    background: var(--header-bg);
-} */
+}
 
 .navbar__list {
     display: flex;
