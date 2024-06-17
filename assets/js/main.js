@@ -1,8 +1,12 @@
 const links = document.querySelectorAll(".navbar__link");
+const items = document.querySelectorAll(".navbar__item");
 
-links.forEach((link) => {
+links.forEach((link, index) => {
   link.addEventListener("click", () => {
+    items.forEach((item) => item.classList.remove("navbar__item--active"));
     links.forEach((link) => link.classList.remove("navbar__link--active"));
+
+    items[index].classList.add("navbar__item--active");
     link.classList.add("navbar__link--active");
   });
 });

@@ -24,8 +24,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-
 /* =============== Common =============== */
 .container {
     width: 1170px;
@@ -133,9 +131,8 @@ button {
 
 /* =============== Header =============== */
 .header {
-    min-height: 100vh;
     background: var(--header-bg);
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .logo {
@@ -186,16 +183,16 @@ button {
 
 /* Header top */
 .header-top {
-    padding: 30px 0 8px;
+    padding: 60px 0 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: var(--header-bg);
 }
 
-.header-top.fixed {
+.header.fixed {
     position: sticky;
-    top: -22px;
+    top: -50px;
     z-index: 1;
 }
 
@@ -245,9 +242,14 @@ button {
 
 /* Hero */
 .hero {
+    padding-top: 76px;
+
+    background: var(--header-bg);
+}
+
+.hero__inner {
     display: flex;
     align-items: center;
-    margin-top: 76px;
 }
 
 .hero__content {

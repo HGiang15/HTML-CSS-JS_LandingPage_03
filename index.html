@@ -28,6 +28,9 @@
     <!-- Reset CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css">
 
+    <!-- Animation AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Embed Font Sora and Open Sans-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,10 +47,10 @@
 
 <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header fixed">
         <div class="container">
             <!-- Header top -->
-            <div class="header-top fixed">
+            <div class="header-top ">
                 <!-- Logo -->
                 <a href="./index.html">
                     <div class="logo">
@@ -92,33 +95,42 @@
                 </div>
             </div>
 
-            <!-- Hero -->
-            <section class="hero">
-                <!-- Hero content -->
-                <section class="hero__content">
-                    <h1 class="hero__heading">Exceptional dental care for all ages.</h1>
-                    <p class="hero__desc">
-                        Exceptional dental care for all ages.
-                        Your great smile begins with a great dentist.
-                    </p>
-                    <div class="hero__row">
-                        <a href="./signup.html" class="btn">Book Online</a>
-                        <a href="tel:1234567890" class="hero__phone">or call (123) 456-7890</a>
-                    </div>
-                </section>
-
-                <!-- Hero media -->
-                <div class="hero__media">
-                    <figure class="hero__images">
-                        <img src="./assets/img/hero-02.jpg" alt="" class="hero__img">
-                        <img src="./assets/img/hero-01.jpg" alt="" class="hero__img">
-                    </figure>
-                </div>
-            </section>
         </div>
     </header>
 
     <main>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <!-- Hero content -->
+                    <section class="hero__content">
+                        <h1 class="hero__heading">Exceptional dental care for all ages.
+                        </h1>
+                        <p class="hero__desc">
+                            Exceptional dental care for all ages.
+                            Your great smile begins with a great dentist.
+                        </p>
+                        <div class="hero__row">
+                            <a href="./signup.html" class="btn">Book Online</a>
+                            <a href="tel:1234567890" class="hero__phone">or call (123)
+                                456-7890</a>
+                        </div>
+                    </section>
+
+                    <!-- Hero media -->
+                    <div class="hero__media">
+                        <figure class="hero__images">
+                            <img src="./assets/img/hero-02.jpg" alt="" class="hero__img">
+                            <img src="./assets/img/hero-01.jpg" alt="" class="hero__img">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Service -->
         <section id="services" class="service">
             <div class="container">
@@ -130,11 +142,11 @@
 
                 <div class="service__row">
                     <figure>
-                        <img src="./assets/img/service-img-1.jpg" alt="" class="service__img">
+                        <img src="./assets/img/service-img-1.jpg" alt="" data-aos="fade-right" class="service__img">
                     </figure>
 
                     <div>
-                        <div class="service__list">
+                        <div class="service__list" data-aos="fade-left">
                             <!-- Service item 1 -->
                             <section class="service-item">
                                 <div class="service-item__icon">
@@ -193,7 +205,7 @@
                             </section>
                         </div>
 
-                        <a href="#!" class="btn">All Services</a>
+                        <a href="#!" class="btn" data-aos="fade-left">All Services</a>
                     </div>
                 </div>
             </div>
@@ -254,14 +266,14 @@
                 <div class="feature__inner">
                     <!-- Feature left -->
                     <div class="feature__media">
-                        <figure class="feature__images">
+                        <figure class="feature__images" data-aos="zoom-in">
                             <img src="./assets/img/feature-img-02.jpg" alt="" class="feature__img">
                             <img src="./assets/img/feature-img-01.jpg" alt="" class="feature__img">
                         </figure>
                     </div>
 
                     <!-- Feature right -->
-                    <section class="feature__content">
+                    <section class="feature__content" data-aos="zoom-in">
                         <h2 class="section-heading">Take back your smile with shine.</h2>
                         <p class="section-desc feature__desc">
                             If you’re missing multiple teeth due to decay, injury,
@@ -571,6 +583,8 @@
         </div>
     </footer>
 
+    <script src="./assets/js/main.js"></script>
+
     <!-- Button click on top -->
     <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
         <svg fill="#000000" height="24" width="24" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -581,7 +595,10 @@
         </svg>
     </button>
 
-    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
