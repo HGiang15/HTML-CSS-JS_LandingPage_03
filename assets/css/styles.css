@@ -332,10 +332,10 @@ button {
 }
 
 .service__row {
-    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 70px;
 }
 
 .service__img {
@@ -399,6 +399,11 @@ button {
     font-size: 1.6rem;
     line-height: 1.75;
     color: var(--desc-color);
+}
+
+.service__cta {
+    display: flex;
+    justify-content: center;
 }
 
 /* =============== Work =============== */
@@ -630,9 +635,10 @@ button {
 }
 
 .news__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     max-width: 570px;
-    column-gap: 30px;
+    gap: 30px;
 }
 
 .news-item {
