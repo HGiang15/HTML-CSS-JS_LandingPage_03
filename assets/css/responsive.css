@@ -142,6 +142,10 @@
     }
 
     /* Service */
+    .service {
+        overflow: hidden;
+    }
+
     .service__row {
         flex-direction: column;
     }
@@ -306,6 +310,8 @@
     }
 
     /* Service */
+
+
     .service__desc,
     .service__img {
         width: 100%;
