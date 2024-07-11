@@ -298,6 +298,16 @@
         display: none;
     }
 
+    .header-top {
+        justify-content: space-between;
+    }
+
+    .bell {
+        display: block;
+        width: 20px;
+        fill: #fff;
+    }
+
     /* Hero */
     .hero__heading {
         font-size: 3.4rem;
